@@ -2,7 +2,9 @@ package types
 
 const (
 	// ModuleName defines the module name
-	ModuleName = "blog"
+	ModuleName   = "blog"
+	PostKey      = "Post/value/"
+	PostCountKey = "Post/count/"
 
 	// StoreKey defines the primary module store key
 	StoreKey = ModuleName
